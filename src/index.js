@@ -22,7 +22,12 @@ const theme = {
 	}
 }
 
-root.render(
+// const urlHost = {
+// 	urlTF: 'http://localhost:8501/', 
+// 	model: 'hand-s'
+// }
+
+root.render( 
   <React.StrictMode>
     <ChakraProvider theme={theme}>
 		<Fonts />

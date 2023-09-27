@@ -56,31 +56,61 @@ export function Home() {
 					</Box>
 				</HStack>
 
-				<RouterLink to={'/model'}>
-					<Box
-						as='button'
-						lineHeight='1.2'
-						transition='all 0.2s cubic-bezier(.08,.52,.52,1)'
-						px={250}
-						py={35}
-						borderRadius='100px'
-						fontSize='35px'
-						fontWeight='semibold'
-						bg='#407bfe'
-						color='white'
-						_hover={{ bg: '#7aa2fa' }}
-						_active={{
-							bg: '#7aa2fa',
-							transform: 'scale(0.98)',
-						}}
-						_focus={{
-							boxShadow:
-							'0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)',
-						}}
-						>
-						Get Tested
-					</Box>
-				</RouterLink>
+				<HStack px={50} spacing={100}>
+				
+					<RouterLink to={'/model'}>
+						<Box
+							as='button'
+							lineHeight='1.2'
+							transition='all 0.2s cubic-bezier(.08,.52,.52,1)'
+							px={150}
+							py={35}
+							borderRadius='100px'
+							fontSize='37px'
+							fontWeight='semibold'
+							bg='#407bfe'
+							color='white'
+							_hover={{ bg: '#7aa2fa' }}
+							_active={{
+								bg: '#7aa2fa',
+								transform: 'scale(0.98)',
+							}}
+							_focus={{
+								boxShadow:
+								'0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)',
+							}}
+							>
+							Get Tested
+						</Box>
+					</RouterLink>
+
+					<RouterLink to={'https://docs.google.com/presentation/d/1i6ycQRce0TqGAhgO9johrqz0KYL1frmyeZKu4awxuqI/edit'}>
+						<Box
+							as='button'
+							lineHeight='1.2'
+							transition='all 0.2s cubic-bezier(.08,.52,.52,1)'
+							px={150}
+							py={35}
+							borderRadius='100px'
+							fontSize='37px'
+							fontWeight='semibold'
+							bg='#407bfe'
+							color='white'
+							_hover={{ bg: '#7aa2fa' }}
+							_active={{
+								bg: '#7aa2fa',
+								transform: 'scale(0.98)',
+							}}
+							_focus={{
+								boxShadow:
+								'0 0 1px 2px rgba(88, 144, 255, .75), 0 1px 1px rgba(0, 0, 0, .15)',
+							}}
+							>
+							View Presentation
+						</Box>
+					</RouterLink>
+
+				</HStack>
 
 			</VStack>
 		</>
